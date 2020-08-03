@@ -3,7 +3,7 @@ body {
 }
 
 .header-section-container {
-    width: 1430px;
+    max-width: 1430px;
     margin: 0 auto;
 }
 
@@ -99,3 +99,39 @@ header .nav-bar-ul form i {
 .showcase-content a:hover {
   text-decoration: underline;
 }
+
+.sub-images {
+  display: flex;
+}
+
+.sub-images img {
+  width: 25%;
+}
+ 
+.main-footer {
+  font-size: 12px;
+
+}
+
+.top-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side-footer-container a {
+  border-right: 1px solid gray;
+  padding: 0 10px;
+ }
+
+ a.no-border {
+   border-right: #fff;
+ }
+
+ .footer-copyright {
+   margin-top: 10px;
+ }
