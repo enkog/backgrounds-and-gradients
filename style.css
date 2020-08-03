@@ -1,5 +1,6 @@
-body {
-
+.showcase {
+  background: url(./img/main-background.jpg) no-repeat center center/cover;
+  background-position: 0 100%;
 }
 
 header {
@@ -16,18 +17,42 @@ header .showcase-content {
 header .nav-bar-ul {
   display: flex;
   width: auto;
-  border: 1px solid black;
   margin-top: 90px;
 }
 
 header .nav-bar-ul li {
-    list-style: none;
+  list-style: none;
 }
 
 header .nav-bar-ul button {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color: black;
+  color: #fff;
   width: 105px;
   height: 30px;
-  border: 1px solid black;
+  background: linear-gradient(180deg, rgb(75, 73, 73) 50%, rgba(133, 133, 133, 1)82%);
+  cursor: pointer;
+  border: transparent;
+  border-left: 1px solid gray;
+}
+
+header .nav-bar-ul button:hover {
+  background: rgb(41, 40, 40);
+}
+
+.apple-btn {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.showcase-content {
+    color: #fff;
+}
+.showcase-content h1 {
+    font-size: 50px;
+    margin-top: 20px;
 }
