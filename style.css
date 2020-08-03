@@ -2,13 +2,51 @@ body {
   width: 100%;
 }
 
+/* Links */
+
 body a {
   text-decoration: none;
 }
 
+header .nav-bar-ul li a{
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #fff;
+}
+
+.main-footer a {
+  color: #08c;
+}
+
+.right-side-footer-container a {
+  border-right: 1px solid gray;
+  padding: 0 10px;
+}
+
+a.no-border {
+  border-right: #fff;
+}
+
+.showcase-content a {
+  color: white;
+  font-size: 25px;
+  margin-top: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+
+.showcase-content a:hover {
+  text-decoration: underline;
+}
+
+header .nav-bar-ul li a:hover {
+  text-decoration: none;
+}
+
+/* Showcase (header) Section */
+
 .header-section-container {
-    max-width: 1430px;
-    margin: 0 auto;
+  max-width: 1430px;
+  margin: 0 auto;
 }
 
 .showcase {
@@ -44,20 +82,11 @@ header .nav-bar-ul li {
   text-align: center;
 }
 
-header .nav-bar-ul li a{
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    color: #fff;
-  }
-
 header .nav-bar-ul li:hover {
   background: rgb(41, 40, 40);
 }
 
-header .nav-bar-ul li a:hover {
-    text-decoration: none;
-  }
-
-.apple-btn {
+header .apple-link {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -68,32 +97,36 @@ header .nav-bar-ul li a:hover {
   color: #fff;
   display: flex;
   justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .header-search-form input {
-    width: 70px;
-    border-radius: 3px;
-    border: transparent;
-    position: abslute;
-    top: 5px;
-    left: 15px;
+  width: 70px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  position: abslute;
+  top: 5px;
+  left: 15px;
+  background: transparent;
 }
 
 header .nav-bar-ul form i {
-  color: black;
+  color: #fff;
   position: absolute;
   top: 11px;
-  left: 2px;
+  left: 20px;
 }
 
 .showcase-content {
   color: #fff;
 }
+
 .showcase-content h1 {
   font-size: 50px;
   margin-top: 100px;
   font-family: "Lato", sans-serif;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .showcase-content p {
@@ -104,17 +137,7 @@ header .nav-bar-ul form i {
   line-height: 30px;
 }
 
-.showcase-content a {
-  color: white;
-  font-size: 25px;
-  margin-top: 35px;
-  font-family: "Lato", sans-serif;
-  font-weight: lighter;
-}
-
-.showcase-content a:hover {
-  text-decoration: underline;
-}
+/* Products Section */
 
 .sub-images {
   display: flex;
@@ -124,15 +147,13 @@ header .nav-bar-ul form i {
   width: 25%;
 }
  
+/* Footer Section */
+
 .main-footer {
   font-size: 10px;
   font-family: "Lato", sans-serif;
   max-width: 1100px;
   margin: 30px auto 0 auto;
-}
-
-.main-footer a {
-    color: #08c;
 }
 
 .top-footer-container {
@@ -145,17 +166,8 @@ header .nav-bar-ul form i {
   justify-content: space-between;
 }
 
-.right-side-footer-container a {
-  border-right: 1px solid gray;
-  padding: 0 10px;
-}
-
- a.no-border {
-   border-right: #fff;
-}
-
- .footer-copyright {
-   margin-top: 18px;
+.footer-copyright {
+  margin-top: 18px;
 }
 
 .terms-of-use-line {
