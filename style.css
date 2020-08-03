@@ -1,0 +1,33 @@
+body {
+
+}
+
+header {
+  height: 90vh;
+}
+
+header .showcase-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .nav-bar-ul {
+  display: flex;
+  width: auto;
+  border: 1px solid black;
+  margin-top: 90px;
+}
+
+header .nav-bar-ul li {
+    list-style: none;
+}
+
+header .nav-bar-ul button {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: black;
+  width: 105px;
+  height: 30px;
+  border: 1px solid black;
+}
