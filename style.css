@@ -2,6 +2,14 @@ body {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
+.white-color{
+  color: #fff;
+}
+
 /* Links */
 
 body a {
@@ -18,7 +26,6 @@ body a {
 }
 
 .showcase-content a {
-  color: white;
   font-size: 25px;
   margin-top: 35px;
   font-family: "Lato", sans-serif;
@@ -27,7 +34,6 @@ body a {
 
 header .nav-bar-ul li a {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color: #fff;
 }
 
 a.no-border {
@@ -59,15 +65,12 @@ header {
 }
 
 header .showcase-content {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
 }
 
 header .nav-bar-ul {
-  display: flex;
   width: auto;
   margin-top: 90px;
 }
@@ -99,8 +102,6 @@ header .apple-link i {
 .header-search-form {
   position: relative;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color: #fff;
-  display: flex;
   justify-content: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -114,7 +115,6 @@ header .apple-link i {
 }
 
 header .nav-bar-ul form i {
-  color: #fff;
   position: absolute;
   top: 11px;
   left: 20px;
@@ -137,12 +137,12 @@ header .nav-bar-ul form i {
 
 /* Products Section */
 
-.sub-images {
-  display: flex;
+.sub-images a {
+  width: 25%;
 }
 
-.sub-images img {
-  width: 25%;
+.sub-images a img {
+  width: 100%;
 }
 
 /* Footer Section */
@@ -155,12 +155,10 @@ header .nav-bar-ul form i {
 }
 
 .top-footer-container {
-  display: flex;
   justify-content: space-between;
 }
 
 .right-side-footer-container {
-  display: flex;
   justify-content: space-between;
 }
 
