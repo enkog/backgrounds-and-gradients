@@ -1,10 +1,19 @@
+body {
+  width: 100%;
+}
+
+.header-section-container {
+    width: 1430px;
+    margin: 0 auto;
+}
+
 .showcase {
   background: url(./img/main-background.jpg) no-repeat center center/cover;
-  background-position: 0 100%;
+  background-position: 0 92%;
 }
 
 header {
-  height: 90vh;
+  height: 600px;
 }
 
 header .showcase-content {
@@ -45,14 +54,48 @@ header .nav-bar-ul button:hover {
 }
 
 .search-btn {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header .nav-bar-ul form {
+  position: relative;
+}
+
+header .nav-bar-ul form i {
+  color: black;
+  position: absolute;
+  top: 7px;
+  left: 7px;
 }
 
 .showcase-content {
-    color: #fff;
+  color: #fff;
 }
 .showcase-content h1 {
-    font-size: 50px;
-    margin-top: 20px;
+  font-size: 50px;
+  margin-top: 100px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+
+.showcase-content p {
+  margin-top: 20px;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+
+.showcase-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-top: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+
+.showcase-content a:hover {
+  text-decoration: underline;
 }
