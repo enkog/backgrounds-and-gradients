@@ -8,11 +8,6 @@ body a {
   text-decoration: none;
 }
 
-header .nav-bar-ul li a{
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color: #fff;
-}
-
 .main-footer a {
   color: #08c;
 }
@@ -22,16 +17,21 @@ header .nav-bar-ul li a{
   padding: 0 10px;
 }
 
-a.no-border {
-  border-right: #fff;
-}
-
 .showcase-content a {
   color: white;
   font-size: 25px;
   margin-top: 35px;
   font-family: "Lato", sans-serif;
   font-weight: 100;
+}
+
+header .nav-bar-ul li a {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #fff;
+}
+
+a.no-border {
+  border-right: #fff;
 }
 
 .showcase-content a:hover {
@@ -63,6 +63,7 @@ header .showcase-content {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 header .nav-bar-ul {
@@ -75,7 +76,7 @@ header .nav-bar-ul li {
   width: 105px;
   height: auto;
   padding: 8px;
-  background: linear-gradient(180deg, rgb(75, 73, 73) 50%, rgba(133, 133, 133, 1)82%);
+  background: linear-gradient(180deg, rgb(75, 73, 73) 50%, rgba(133, 133, 133, 1) 82%);
   cursor: pointer;
   border: transparent;
   border-left: 1px solid gray;
@@ -92,7 +93,7 @@ header .apple-link {
 }
 
 header .apple-link i {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .header-search-form {
@@ -109,9 +110,6 @@ header .apple-link i {
   width: 70px;
   border-radius: 10px;
   border: 1px solid gray;
-  position: abslute;
-  top: 5px;
-  left: 15px;
   background: transparent;
 }
 
@@ -120,10 +118,6 @@ header .nav-bar-ul form i {
   position: absolute;
   top: 11px;
   left: 20px;
-}
-
-.showcase-content {
-  color: #fff;
 }
 
 .showcase-content h1 {
